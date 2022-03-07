@@ -1,12 +1,13 @@
 # Site settings
 title: Jekyll Sunday
-description: "A Jekyll starter "
+description: "A Jekyll starter base on joshbuchea/HEAD"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://area44.github.io/jekyll-sunday" # the base hostname & protocol for your site (no trailing slash)
 banner: https://raw.githubusercontent.com/AREA44/.github/main/images/banner.jpg
-twitter_username: 
+twitter_username:
 github_username: AREA44
-google_analytics: 
+repository: https://github.com/AREA44/jekyll-sunday
+google_analytics:
 exclude: [readme.md]
 
 sass:

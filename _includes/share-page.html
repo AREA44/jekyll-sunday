@@ -1,5 +1,4 @@
 <div class="share-page">
-
   <!-- PERF MEASUREMENTS ⚡️ -->
 
   <!-- with facebook share button: 23 requests, 280 kb transferred, 793 kb resources -->
@@ -46,14 +45,15 @@
   <!-- Star on GitHub -->
   <a
     class="github-button"
-    href="https://github.com/AREA44/jekyll-sunday"
+    href="{{ site.repository }}"
     data-icon="octicon-star"
     data-show-count="true"
     data-count-aria-label="# stargazers on GitHub"
-    aria-label="Star AREA44/jekyll-sunday on GitHub">
+    aria-label="Star repository on GitHub"
+  >
     Star
   </a>
-  <!-- Place this tag in your jekyll-sunday or just before your close body tag. -->
+  <!-- Place this tag in your {{ site.title }} or just before your close body tag. -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- End Star on GitHub -->
 
@@ -61,6 +61,6 @@
     <a
       href="#"
       rel="noopener noreferrer"
-      target="_blank">Share jekyll-sunday on twitter</a>
+      target="_blank">Share {{ site.title }} on twitter</a>
   </p> -->
 </div>
