@@ -1,6 +1,7 @@
 A Jekyll starter base on [joshbuchea/HEAD](https://github.com/joshbuchea/head/tree/gh-pages).
 
 ## ✨ Features
+
 - Generates a website from README.
 
 ##  License
